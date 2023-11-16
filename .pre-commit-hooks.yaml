@@ -1,0 +1,8 @@
+- id: dotenv-checker
+  name: dotenv-checker
+  entry: dotenv-checker
+  language: node
+  types: [text]
+  args: []
+  files: '\.env*'
+  require_serial: false
